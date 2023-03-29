@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: true,
   selector: 'rxjs-animation-explorer-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: ` <h1>App placeholder</h1> `,
 })
-export class AppComponent {
-  title = 'rxjs-animation-explorer';
-}
+export class AppComponent {}
